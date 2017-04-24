@@ -1,0 +1,249 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:400; font-stretch:normal;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+.body-wrapper {
+  max-width: 1000px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#about {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#headshot {
+  height: 150px;
+  border: 2px solid #e7e7e7;
+  border-radius: 80px;
+  margin-bottom: 20px;
+}
+
+.hero-row {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-row.code {
+  line-height: 1.5;
+  background-color: #34363e;
+  color: #fff;
+  font-size: 18px;
+  font-family: inconsolata;
+  src: url(inconsolata.otf);
+}
+
+#code-text-wrapper, #design-text, #critical-text {
+  margin: 0 auto;
+}
+
+#code-text-wrapper {
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.hero-row.design {
+  background-image: url('images/olomana.jpg');
+  background-position: center;
+  background-size: 100%;
+}
+
+/* For any viewports less than 610px wide */
+@media (max-width: 610px) {
+    .hero-row.design {
+        background-size: cover;
+    }
+}
+
+
+.hero-row.design img {
+  height: 96;
+  width: 197px;
+}
+
+
+.hero-row.critical-thinking {
+  font-family: cavorting;
+  src: url(cavorting.otf);
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tiny_grid.png");
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+}
+
+#critical-text {
+  font-size: 45px;
+}
+
+.hero-row.critical-thinking:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.17);
+  z-index: -1;
+}
+
+#test-bg img {
+  max-width: 100%;
+}
+
+#nav {
+  height: 40px;
+}
+
+#nav img {
+  height: 25px;
+}
+
+.nav-left {
+}
+
+.nav-right {
+  float:right;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.nav-right img {
+  margin-left: 10px;
+}
+
+#nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  position: absolute;
+  top: 7px;
+}
+
+#nav-items li {
+  display: inline;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+#skillset {
+  text-align: center;
+  margin-top: 75px;
+}
+
+#skillset i {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#skillset h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#portfolio-grid {
+  margin-top: 75px;
+}
+
+#portfolio-grid .row div {
+  height: 200px;
+  background-size: cover;
+  border: 1px solid #fff;
+}
+.valence-1 {
+  background: url('images/valence1.jpg');
+}
+
+.pythio-1{
+  background: url('images/pythio-device.png');
+}
+
+.pythio-2{
+  background: url('images/pythio-screenshot.png');
+}
+
+.gp-1 {
+  background: url('images/glasspanel-1.jpg');
+}
+
+.gp-2 {
+  background: url('images/glasspanel-2.jpg');
+}
+
+.sullivan {
+  background: url('images/sullivan.jpg');
+}
+
+.sgr {
+  background: url('images/sgr.png');
+}
+
+.kp {
+  background: url('images/kp.png');
+}
+
+#instagram {
+  margin-top: 100px;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  border-top: 5px solid #e7e7e7;
+}
+
+#instagram li {
+  display: inline;
+}
+
+#instagram li img {
+  width: 6%;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  border: 1px solid #fff;
+  border-top: none;
+  border-bottom: none;
+}
+
+#footer {
+  height: 100px;
+  width: 100%;
+  background-color: #464646;
+}
+
+.code-element {
+  color: #e900cb;
+}
+
+.code-attribute {
+  color: #79e900;
+}
+
+.code-string {
+  color: #d6de00;
+}
+
+.code-comment {
+  color: #5b6178;
+}
+
+.code-href {
+  color: #de0068;
+}
+
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
+}

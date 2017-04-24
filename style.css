@@ -147,6 +147,12 @@ hr.contact-hr:after {
     }
 }
 
+@media (max-width: 610px) {
+    .nav-left {
+        display:none;
+    }
+}
+
 .hero-row.design img {
   height: 96;
   width: 197px;

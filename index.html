@@ -114,26 +114,26 @@
 
 <script>
 
-var token = '15906390.1677ed0.fc926a76556b49eb8d6d3be87cda4796',
-    userid = 15906390,
-    num_photos = 16;
+  var token = '15906390.1677ed0.fc926a76556b49eb8d6d3be87cda4796',
+      userid = 15906390,
+      num_photos = 16;
 
-$.ajax({
-  url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent',
-  dataType: 'jsonp',
-  type: 'GET',
-  data: {access_token: token, count: num_photos},
-  success: function(data){
-    console.log(data);
-    for(var i=0; i<16; i++){
-      if(i==8){
-        $('#instagram').append('<li><img src="images/instagram.png" style="width:4%; display: inline; padding: 0 15px;" /></li>');
+  $.ajax({
+    url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent',
+    dataType: 'jsonp',
+    type: 'GET',
+    data: {access_token: token, count: num_photos},
+    success: function(data){
+      console.log(data);
+      for(var i=0; i<16; i++){
+        if(i==8){
+          $('#instagram').append('<li><img src="images/instagram.png" style="width:4%; display: inline; padding: 0 15px;" /></li>');
+        }
+        $('#instagram').append('<li><img src="'+data.data[i].images.thumbnail.url+'"></li>');
+        console.log(data.data[i].link);
       }
-      $('#instagram').append('<li><img src="'+data.data[i].images.thumbnail.url+'"></li>');
-      console.log(data.data[i].link);
     }
-  }
-});
+  });
 
 </script>
 

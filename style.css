@@ -12,6 +12,10 @@ html, body {
     src: url("cavorting.otf") format("opentype");
 }
 
+@font-face {
+  font-family: inconsolata;
+  src: url("inconsolata.otf") format("opentype");
+}
 
 h2 {
   font-size: 1.7rem;
@@ -120,7 +124,6 @@ hr.contact-hr:after {
   color: #fff;
   font-size: 18px;
   font-family: inconsolata;
-  src: url(inconsolata.otf);
 }
 
 #code-text-wrapper, #design-text, #critical-text {

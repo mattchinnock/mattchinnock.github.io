@@ -4,16 +4,89 @@ html, body {
   font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:400; font-stretch:normal;
   line-height: 1.8;
   font-size: 15px;
+  background-color: #fdfdfd;
 }
 
 h2 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+h3 {
   font-size: 1.4rem;
+}
+
+hr {
+	border-top: 1px solid #cacaca;
+	text-align: center;
+  margin-top:50px;
+}
+
+hr:after {
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 50px;
+  line-height: 1;
+	background: #fff;
+	font-size: 1.7rem;
+}
+
+#portfolio .row div {
+  display: flex;
+  justify-content: center;
+}
+
+#portfolio ul {
+  padding: 0;
+}
+
+hr.portfolio-hr:after {
+	content: 'Portfolio';
+}
+
+hr.contact-hr:after {
+	content: 'Contact';
 }
 
 .body-wrapper {
   max-width: 1000px;
   width: 75%;
   margin: 0 auto;
+}
+
+#nav {
+  height: 40px;
+}
+
+#nav img {
+  height: 25px;
+}
+
+.nav-right {
+  float:right;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.nav-right img {
+  margin-left: 10px;
+}
+
+#nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  position: absolute;
+  top: 7px;
+}
+
+#nav-items li {
+  display: inline;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 #about {
@@ -48,7 +121,6 @@ h2 {
 }
 
 #code-text-wrapper {
-  font-size: 16px;
   padding-left: 8px;
 }
 
@@ -65,12 +137,10 @@ h2 {
     }
 }
 
-
 .hero-row.design img {
   height: 96;
   width: 197px;
 }
-
 
 .hero-row.critical-thinking {
   font-family: cavorting;
@@ -96,47 +166,6 @@ h2 {
   z-index: -1;
 }
 
-#test-bg img {
-  max-width: 100%;
-}
-
-#nav {
-  height: 40px;
-}
-
-#nav img {
-  height: 25px;
-}
-
-.nav-left {
-}
-
-.nav-right {
-  float:right;
-  margin-top: 7px;
-  margin-right: 10px;
-}
-
-.nav-right img {
-  margin-left: 10px;
-}
-
-#nav-items {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
-  position: absolute;
-  top: 7px;
-}
-
-#nav-items li {
-  display: inline;
-  margin-left: 30px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 
 #skillset {
   text-align: center;
@@ -154,7 +183,7 @@ h2 {
 }
 
 #portfolio-grid {
-  margin-top: 75px;
+  margin: 60px 0;
 }
 
 #portfolio-grid .row div {
@@ -194,6 +223,10 @@ h2 {
   background: url('images/kp.png');
 }
 
+#contact {
+  margin-top: 75px;
+}
+
 #instagram {
   margin-top: 100px;
   list-style-type: none;
@@ -217,9 +250,9 @@ h2 {
 }
 
 #footer {
-  height: 100px;
+  height: 50px;
   width: 100%;
-  background-color: #464646;
+  background-color: #34363e;
 }
 
 .code-element {
@@ -246,4 +279,10 @@ h2 {
     content:" ";
     display:block;
     clear:both;
+}
+
+.btn-primary {
+  background-color: #76e7f9;
+  border-color: #79dcdc;
+  float: right;
 }

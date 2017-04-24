@@ -2,7 +2,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:400; font-stretch:normal;
-  line-height: 1.8;
+  line-height: 1.9;
   font-size: 15px;
   background-color: #fdfdfd;
 }
@@ -14,6 +14,7 @@ h2 {
 
 h3 {
   font-size: 1.4rem;
+  margin-bottom: 15px;
 }
 
 hr {
@@ -98,7 +99,7 @@ hr.contact-hr:after {
   height: 150px;
   border: 2px solid #e7e7e7;
   border-radius: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hero-row {

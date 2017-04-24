@@ -145,10 +145,7 @@ hr.contact-hr:after {
     .hero-row.design {
         background-size: cover;
     }
-}
-
-@media (max-width: 610px) {
-    .nav-left {
+    .nav-left, #instagram {
         display:none;
     }
 }

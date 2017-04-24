@@ -7,6 +7,12 @@ html, body {
   background-color: #fdfdfd;
 }
 
+@font-face {
+    font-family: cavorting;
+    src: url("cavorting.otf") format("opentype");
+}
+
+
 h2 {
   font-size: 1.7rem;
   text-align: center;
@@ -145,7 +151,6 @@ hr.contact-hr:after {
 
 .hero-row.critical-thinking {
   font-family: cavorting;
-  src: url(cavorting.otf);
   background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tiny_grid.png");
   letter-spacing: 1px;
   position: relative;

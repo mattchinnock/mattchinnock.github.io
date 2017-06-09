@@ -13,6 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+
 </head>
 
 <body>
@@ -59,7 +60,7 @@
         I've helped shape the future of the ice industry, redfinded lead generation in Higher Education, and co-founded an integration platform that connects Salesforce.com natively to other systems. I've worked in factories, offices, accelerators and incubators across the country including the tech capital of the world, San Francisco.
       </p>
       <p>
-        My primary objective is to work on projects that inspire, innovate and improve the lives of others. This is achieved using the following three funamentals:
+        My primary objective is to work on projects that inspire, innovate and improve the lives of others.
       </p>
     </div>
 
@@ -94,45 +95,56 @@
 
   <div id="portfolio-grid">
     <div class="row">
-      <div class="col-lg-3 col-md-6 pythio-1"></div>
-      <div class="col-lg-3 col-md-6 valence-1"></div>
-      <div class="col-lg-3 col-md-6 gp-1"></div>
-      <div class="col-lg-3 col-md-6 gp-2"></div>
+      <div class="col-lg-3 col-md-6 portfolio-item pythio-1" data-toggle="modal" data-target="#pythioModal">
+        <div class="overlay">
+          <img src="images/pythio-logo-white.png" style="height: 100px;"/>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 portfolio-item valence-1" data-toggle="modal" data-target="#valenceModal">
+        <div class="overlay">
+          <img src="images/valence-logo-white.png" style="height: 60px;"/>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 portfolio-item heroku" data-toggle="modal" data-target="#herokuModal">
+        <div class="overlay">
+          <img src="images/heroku-logo-white.png" style="height: 80px;"/>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 portfolio-item pythio-2"  data-toggle="modal" data-target="#pythioModal">
+        <div class="overlay">
+          <img src="images/akoona-logo-white.png" style="height: 60px;"/>
+        </div>
+      </div>
     </div>
     <div class="row">
-      <div class="col-lg-3 col-md-6 sullivan"></div>
-      <div class="col-lg-3 col-md-6 sgr"></div>
-      <div class="col-lg-3 col-md-6 kp"></div>
-      <div class="col-lg-3 col-md-6 pythio-2"></div>
+
+      <div class="col-lg-3 col-md-6 portfolio-item sgr" data-toggle="modal" data-target="#sgrModal">
+        <div class="overlay">
+          <img src="images/sgr-logo.png" style="height: 80px;"/>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 portfolio-item kp" data-toggle="modal" data-target="#kpModal">
+        <div class="overlay">
+          <img src="images/kp-logo.png" style="height: 100px;"/>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 portfolio-item sullivan" data-toggle="modal" data-target="#sullivanModal">
+        <div class="overlay">
+          <img src="images/sullivan-logo.png" style="height: 110px;"/>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 portfolio-item tasc" data-toggle="modal" data-target="#gpModal">
+        <div class="overlay">
+          <img src="images/tasc-logo-white.png" style="height: 70px;"/>
+        </div>
+      </div>
+
+
+
+
     </div>
   </div>
 
-  <!--<div id="portfolio" class="container">
-    <p style="text-align:center;">
-      My name is Matt Chinnock, a British born techie from Honolulu, Hawaii. I've helped shape the future of the ice industry, redfinded lead generation in Higher Education, and co-founded an integration platform that connects Salesforce.com natively to other systems. I've worked in factories, offices, accelerators and incubators across the country including the tech capital of the world, San Francisco.
-    </p>
-    <div class="row">
-      <div class="col-md-6">
-        <ul>
-          <li>Item one</li>
-          <li>Item one</li>
-          <li>Item one</li>
-          <li>Item one</li>
-          <li>Item one</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <ul>
-          <li>Item one</li>
-          <li>Item one</li>
-          <li>Item one</li>
-          <li>Item one</li>
-          <li>Item one</li>
-        </ul>
-      </div>
-
-    </div>
-  </div>-->
 
 
   <div id="contact" class="container">
@@ -165,6 +177,118 @@
   <div id="footer"></div>
   </div>
 
+  <!-- Pythio Modal -->
+  <div class="modal fade" id="pythioModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <img src="images/pythio-logo.png" class="modal-logo"/>
+          <h4 style="text-align:center; margin-bottom: 40px;">Pythio - Customizable Telemetry Solutions</h4>
+          <p>
+             Pythio specializes in bespoke hardware monitoring, allowing companies to remotely manage and diagnose their hardware around the world.
+          </p>
+          <p>
+            <strong>Project Description</strong>
+          </p>
+          <p>
+            The platform managed thousands of devices, each with multiple sensors sending data back to a centralized server through WiFi or the GSM
+            network. Data is stored in a MongoDB database, fed to an EXT JS frontend over websockets and parsed by visualization libraries such as highcharts.js.
+            Pythio allows it's customers to see data about their machines through a web interface as if they were standing in front of it, from anywhere in the world.
+          </p>
+          <p>
+            <strong>Role</strong>
+          </p>
+          <p>
+             Full stack developer, UI designer. Building  Javascript components to display and modify device data in real time. These components had
+             to not only talk with the noSQL database, but directly to the physical devices using a custom Java application.
+          </p>
+          <img src="images/tech-icons/extjs.jpg" class="tech-logo" />
+          <img src="images/tech-icons/mongodb.jpg" class="tech-logo" style="height:75px;"/>
+          <img src="images/tech-icons/highcharts.jpg" class="tech-logo" />
+          <img src="images/tech-icons/java.jpg" class="tech-logo" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Valence Modal -->
+  <div class="modal fade" id="valenceModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <img src="images/valence-logo.png" class="modal-logo" style="height: 70px;"/>
+          <h4 style="text-align:center; margin-bottom: 40px;">Valence - Salesforce Integration</h4>
+          <p>
+            Valence is an integration framework built natively in Salesforce. It radically reduces the time to build
+            integrations between Salesforce and other systems and empowers Admins when it comes to data synchronization.
+          </p>
+          <p>
+            <strong>Project Description</strong>
+          </p>
+          <p>
+            Born out of
+          </p>
+          <p>
+            <strong>Role</strong>
+          </p>
+          <p>
+             As co-founder, my role in the company was to steer decision making, build relationships and help bring the product
+             to market. As a developer I was head of UI design, and lead frontend developer building Lightning components that
+             extend the functionality of the platform.
+          </p>
+          <img src="images/tech-icons/extjs.jpg" class="tech-logo" />
+          <img src="images/tech-icons/mongodb.jpg" class="tech-logo" style="height:75px;"/>
+          <img src="images/tech-icons/highcharts.jpg" class="tech-logo" />
+          <img src="images/tech-icons/java.jpg" class="tech-logo" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Heroku Modal -->
+  <div class="modal fade" id="herokuModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <img src="images/heroku-logo.png" class="modal-logo" />
+          <h4 style="text-align:center; margin-bottom: 40px;">Lead Marketplace with Heroku and Salesforce</h4>
+          <p>
+            Valence is an integration framework built natively in Salesforce. It radically reduces the time to build
+            integrations between Salesforce and other systems and empowers Admins when it comes to data synchronization.
+          </p>
+          <p>
+            <strong>Project Description</strong>
+          </p>
+          <p>
+            Born out of
+          </p>
+          <p>
+            <strong>Role</strong>
+          </p>
+          <p>
+             As co-founder, my role in the company was to steer decision making, build relationships and help bring the product
+             to market. As a developer I was head of UI design, and lead frontend developer building Lightning components that
+             extend the functionality of the platform.
+          </p>
+          <img src="images/tech-icons/extjs.jpg" class="tech-logo" />
+          <img src="images/tech-icons/mongodb.jpg" class="tech-logo" style="height:75px;"/>
+          <img src="images/tech-icons/highcharts.jpg" class="tech-logo" />
+          <img src="images/tech-icons/java.jpg" class="tech-logo" />
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 
@@ -172,7 +296,7 @@
 
   var token = '15906390.1677ed0.fc926a76556b49eb8d6d3be87cda4796',
       userid = 15906390,
-      num_photos = 16;
+      num_photos = 24;
 
   $.ajax({
     url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent',
@@ -181,8 +305,8 @@
     data: {access_token: token, count: num_photos},
     success: function(data){
       console.log(data);
-      for(var i=0; i<16; i++){
-        if(i==8){
+      for(var i=0; i<24; i++){
+        if(i==12){
           $('#instagram').append('<li><img src="images/instagram.png" style="width:4%; display: inline; padding: 0 15px;" /></li>');
         }
         $('#instagram').append('<li><img src="'+data.data[i].images.thumbnail.url+'"></li>');

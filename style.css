@@ -228,6 +228,7 @@ hr.contact-hr:after {
 
 #portfolio-grid {
   margin: 60px 0;
+  border: 10px solid #2e3535;
 }
 
 
@@ -239,7 +240,6 @@ hr.contact-hr:after {
   padding: 0;
   height: 200px;
   background-size: cover;
-  border: 1px solid #fff;
   cursor: pointer;
 }
 

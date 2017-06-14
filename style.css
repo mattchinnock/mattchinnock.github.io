@@ -68,13 +68,13 @@ hr.contact-hr:after {
 }
 
 .nav-right {
-  float:right;
-  margin-top: 7px;
-  margin-right: 10px;
+  position: absolute;
+  top: 5;
+  right: 0;
 }
 
 .nav-right img {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #nav-items {

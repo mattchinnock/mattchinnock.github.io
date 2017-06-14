@@ -154,6 +154,7 @@ hr.contact-hr:after {
   letter-spacing: 1px;
   position: relative;
   z-index: 1;
+  border-bottom: 1px dashed #e4e4e4;
 }
 
 .hero-row.critical-thinking .bulbs{

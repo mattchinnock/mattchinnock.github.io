@@ -156,8 +156,38 @@ hr.contact-hr:after {
   z-index: 1;
 }
 
+.hero-row.critical-thinking .bulbs{
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-left: 275px;
+  align-self: baseline;
+}
+
+.hero-row.critical-thinking .crosses{
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-left: -300px;
+}
+
+.hero-row.critical-thinking .underline{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 31px;
+  width: 200px;
+}
+
+
+
 #critical-text {
   font-size: 45px;
+  margin-top: -10px;
 }
 
 .hero-row.critical-thinking:after {
@@ -286,7 +316,7 @@ hr.contact-hr:after {
 }
 
 #footer {
-  height: 50px;
+  height: 25px;
   width: 100%;
   background-color: #34363e;
 }

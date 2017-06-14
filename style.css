@@ -170,6 +170,7 @@ hr.contact-hr:after {
   height: 100px;
   position: absolute;
   left: 50%;
+  top: 50px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   margin-left: -300px;
@@ -178,6 +179,7 @@ hr.contact-hr:after {
 .hero-row.critical-thinking .underline{
   position: absolute;
   left: 50%;
+  top: 90px;
   transform: translateX(-50%);
   margin-top: 31px;
   width: 200px;

@@ -152,6 +152,10 @@ hr.contact-hr:after {
     .email {
       margin-top: 70px;
     }
+
+    .nav-right {
+      top: 10;
+    }
 }
 
 .hero-row.design img {

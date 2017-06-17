@@ -141,6 +141,10 @@ hr.contact-hr:after {
     .nav-left, #instagram {
         display:none;
     }
+
+    .hero-row.code {
+      font-size: 13px;
+    }
 }
 
 .hero-row.design img {

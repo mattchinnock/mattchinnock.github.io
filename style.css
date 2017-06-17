@@ -145,6 +145,10 @@ hr.contact-hr:after {
     .hero-row.code {
       font-size: 13px;
     }
+
+    .email {
+      margin-top: 70px;
+    }
 }
 
 .hero-row.design img {

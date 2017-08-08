@@ -261,6 +261,9 @@ hr.contact-hr:after {
   margin-bottom: 0;
   font-size: 13px;
   padding-right: 30px;
+  padding-left: 10px;
+  border-left: 1px dashed #dcdcdc;
+  margin-top: 15px;
 }
 
 #product-management .row {

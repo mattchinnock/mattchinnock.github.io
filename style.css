@@ -56,10 +56,14 @@ hr.contact-hr:after {
 	content: 'Contact';
 }
 
-.body-wrapper {
-  max-width: 1000px;
-  width: 75%;
-  margin: 0 auto;
+@media (min-width: 1200px) {
+.container {
+    width: 1300px;
+    max-width: 100%;
+}
+
+#skillset .row .col-md-4 {
+  padding: 0 40px;
 }
 
 #nav {
@@ -220,7 +224,7 @@ hr.contact-hr:after {
 
 #skillset {
   text-align: center;
-  margin-top: 75px;
+  margin: 75px 0 50px 0;
 }
 
 #skillset i {
@@ -241,8 +245,55 @@ hr.contact-hr:after {
   text-transform: uppercase;
 }
 
+#product-management {
+  margin-bottom: 75px;
+}
+
+#product-management p {
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 13px;
+  padding-right: 30px;
+}
+
+#product-management .row {
+  margin-bottom: 50px;
+}
+
+.pm-left {
+  text-align: center;
+}
+
+.pm-step-wrapper {
+  margin: auto;
+  display: block;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.pm-step-wrapper span {
+  font-size: 14px;
+}
+
+.pm-step {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:50px;
+  border: 3px solid #464646;
+  margin: 0 auto 10px;
+}
+
+.pm-step span {
+  margin: auto;
+  font-size: 18px;
+}
+
 #portfolio-grid {
-  margin: 50px 0 0 0;
+  margin: 50px 0 50px 0;
   border: 10px solid #2e3535;
 }
 

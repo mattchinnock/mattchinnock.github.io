@@ -252,9 +252,6 @@ hr.contact-hr:after {
   text-transform: uppercase;
 }
 
-#product-management {
-  margin-bottom: 75px;
-}
 
 #product-management p {
   text-align: left;
@@ -303,7 +300,7 @@ hr.contact-hr:after {
 }
 
 #portfolio-grid {
-  margin: 50px 0 50px 0;
+  margin: 65px 0 75px 0;
   border: 10px solid #2e3535;
 }
 
@@ -510,5 +507,5 @@ i.mail {
 }
 
 #contact {
-  padding: 75px 0 100px 0;
+  padding: 25px 0 60px 0;
 }

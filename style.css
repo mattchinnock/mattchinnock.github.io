@@ -56,10 +56,17 @@ hr.contact-hr:after {
 	content: 'Contact';
 }
 
+.body-wrapper {
+  max-width: 1000px;
+  width: 75%;
+  margin: 0 auto;
+}
+
 @media (min-width: 1200px) {
 .container {
     width: 1300px;
     max-width: 100%;
+}
 }
 
 #skillset .row .col-md-4 {

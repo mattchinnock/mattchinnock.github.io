@@ -56,17 +56,16 @@ hr.contact-hr:after {
 	content: 'Contact';
 }
 
+.resume {
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
 .body-wrapper {
   max-width: 1000px;
   width: 75%;
   margin: 0 auto;
-}
-
-@media (min-width: 1200px) {
-.container {
-    width: 1300px;
-    max-width: 100%;
-}
 }
 
 #skillset .row .col-md-4 {
@@ -75,6 +74,14 @@ hr.contact-hr:after {
 
 #nav {
   height: 40px;
+}
+
+#nav a {
+  cursor: pointer;
+}
+
+#nav a:hover {
+  text-decoration: none;
 }
 
 #nav img {
@@ -147,8 +154,28 @@ hr.contact-hr:after {
   background-size: 100%;
 }
 
+@media (min-width: 1200px) {
+.container {
+    width: 1300px;
+    max-width: 100%;
+}
+}
+
 /* For any viewports less than 610px wide */
 @media (max-width: 610px) {
+
+    #about {
+      margin-bottom:0;
+    }
+
+    #skillset {
+      margin-top: 0 !important;
+    }
+
+    #skillset .col-md-4 {
+      margin-top: 30px;
+    }
+
     .hero-row.design {
         background-size: cover;
     }
@@ -167,6 +194,17 @@ hr.contact-hr:after {
     .nav-right {
       top: 10;
     }
+
+    #product-management h3 {
+      margin: 0 0 50px 0 !important;
+      text-align: center;
+    }
+
+    #product-management h5 {
+      text-align: center;
+      margin: 10px 0 20px 0;
+    }
+
 }
 
 .hero-row.design img {
@@ -267,6 +305,11 @@ hr.contact-hr:after {
   margin-bottom: 50px;
 }
 
+#product-management h3 {
+  margin-left: 107px;
+  margin-bottom: 35px;
+}
+
 .pm-left {
   text-align: center;
 }
@@ -283,6 +326,7 @@ hr.contact-hr:after {
 }
 
 .pm-step {
+  color: #4a5858;
   display: flex;
   align-items: center;
   height: 50px;
@@ -290,7 +334,7 @@ hr.contact-hr:after {
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
   width:50px;
-  border: 3px solid #464646;
+  border: 3px solid #4a5858;
   margin: 0 auto 10px;
 }
 

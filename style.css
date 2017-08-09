@@ -161,52 +161,6 @@ hr.contact-hr:after {
 }
 }
 
-/* For any viewports less than 610px wide */
-@media (max-width: 610px) {
-
-    #about {
-      margin-bottom:0;
-    }
-
-    #skillset {
-      margin-top: 0 !important;
-    }
-
-    #skillset .col-md-4 {
-      margin-top: 30px;
-    }
-
-    .hero-row.design {
-        background-size: cover;
-    }
-    .nav-left, #instagram {
-        display:none;
-    }
-
-    .hero-row.code {
-      font-size: 13px;
-    }
-
-    .email {
-      margin-top: 70px;
-    }
-
-    .nav-right {
-      top: 10;
-    }
-
-    #product-management h3 {
-      margin: 0 0 50px 0 !important;
-      text-align: center;
-    }
-
-    #product-management h5 {
-      text-align: center;
-      margin: 10px 0 20px 0;
-    }
-
-}
-
 .hero-row.design img {
   height: 96;
   width: 197px;
@@ -552,4 +506,58 @@ i.mail {
 
 #contact {
   padding: 25px 0 60px 0;
+}
+
+/* For any viewports less than 610px wide */
+@media (max-width: 610px) {
+
+    #about {
+      margin-bottom:0;
+    }
+
+    #skillset {
+      margin-top: 0 !important;
+    }
+
+    #skillset .col-md-4 {
+      margin-top: 30px;
+    }
+
+    .hero-row.design {
+        background-size: cover;
+    }
+    .nav-left, #instagram {
+        display:none;
+    }
+
+    .hero-row.code {
+      font-size: 13px;
+    }
+
+    .email {
+      margin-top: 70px;
+    }
+
+    .nav-right {
+      top: 10;
+    }
+
+    #product-management h3 {
+      margin: 0 0 50px 0 !important;
+      text-align: center;
+    }
+
+    #product-management h5 {
+      text-align: center;
+      margin: 10px 0 20px 0;
+    }
+
+    #product-management .row {
+      margin-bottom: 0;
+    }
+
+    #product-management .col-md-5 {
+      margin-bottom: 30px;
+    }
+
 }

@@ -181,7 +181,7 @@ hr.contact-hr:after {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  margin-left: 275px;
+  margin-left: 260px;
   align-self: baseline;
 }
 
@@ -192,7 +192,7 @@ hr.contact-hr:after {
   top: 50px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  margin-left: -300px;
+  margin-left: -275px;
 }
 
 .hero-row.critical-thinking .underline{

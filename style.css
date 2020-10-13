@@ -4,6 +4,11 @@ html, body {
     font-style: normal;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+body {
+    position: fixed;
 }
 
 p, h1 {

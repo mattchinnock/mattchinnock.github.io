@@ -53,7 +53,10 @@ p {
 
 .button{
     width: 80px;
-    height: 40px;
+    padding: 11px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     background-color: #000;
     border: none;
     color: #fff;

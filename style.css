@@ -89,13 +89,7 @@ text-decoration: none;
 height: 30px;
 }
 
-.nav-right {
-position: absolute;
-top: 10;
-right: 0;
-}
-
-.nav-right img {
+.ext-links img {
 margin-right: 10px;
 }
 
